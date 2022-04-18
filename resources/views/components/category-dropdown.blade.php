@@ -8,6 +8,7 @@
     </x-slot>
 
     <x-dropdown-item href="/" :active="request()->routeIs('home')">All</x-dropdown-item>
+    <x-dropdown-item href="/">Alexandros</x-dropdown-item>
 
     @foreach ($categories as $category)
         <x-dropdown-item
